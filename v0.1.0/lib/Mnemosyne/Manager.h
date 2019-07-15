@@ -39,7 +39,7 @@ namespace data {
             void show(){
                 for (const auto element: vector){
                     std::cout << "=========== \n";
-                    std::cout << element;
+                    std::cout << *element;
                 }
             };
 
